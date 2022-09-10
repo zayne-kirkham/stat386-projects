@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "Homework 1 Test Blog"
+date:   2022-09-13
+author: Zayne Kirkham
+description: Experimenting with different formats and designs
+image: /assets/images/rubber-duckie-stephen-cefalo.jpg
+---
+
+# Some of My Favorite Duckys
+
+## Number One: The Classic
+
+![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/rubber-duckie-stephen-cefalo.jpg)
+
+Pros:
+ - nastolgic
+ - simple
+ - lawful good
+Cons:
+ - a little naive
+ - gets lost easily
+ - doesn't know how to tie his shoes
+
+## Number Two: Elvis
+
+![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/ELVIS.jpg)
+
+Pros:
+ - great voice
+ - great hair
+ - 'knows someone' for anything
+ 
+Cons:
+ - prideful
+ - constantly getting swarmed by fans
+ - secret drug habit
+ - chaotic neutral
+ 
+## Number Three: Devil Duck
+
+![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/devil.jpg)
+
+Pros:
+ - hot
+ - knows where he is going
+Cons:
+ - constantly trying to get you to do bad things
+ - will light your car on fire by accident
+ - lawful evil
+ 
+ ## Number Four: Farmer
+ 
+ ![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/farmer.jpeg)
+ 
+ Pros:
+  - good work ethic
+  - knows how to make good food
+  - neutral good
+ Cons:
+  - can be a bit racist
+  
+ 
+ Thank you for reading my very short and incomplete ranking! 
+ 
+ Have a wonderful day! :)
+ 
+ 
+ # Test R script
+ 
+ ``` {r, echo = True, include = True, eval = True}
+ x = c(1, 2, 3, 4, 5)
+ sum(x)
+ ```
+
