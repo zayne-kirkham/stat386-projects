@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 vendor
 .idea
+.Rproj.user
+stat386-projects.Rproj
