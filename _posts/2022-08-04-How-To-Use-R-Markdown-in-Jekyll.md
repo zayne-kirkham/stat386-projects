@@ -79,7 +79,7 @@ library(ggplot2)
 ggplot(data = diamonds) +
   geom_violin(aes(y=price, x=cut, fill = cut), show.legend = FALSE)
 ```
-![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/images/unnamed-chunk-1-1.png)
+![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/rmd%20sources/unnamed-chunk-1-1.png)
 
 Image markdown before alteration:
 ```
@@ -87,7 +87,7 @@ Image markdown before alteration:
 ```
 Image markdown after alteration:
 ```
-![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/images/unnamed-chunk-1-1.png)
+![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/rmd%20sources/unnamed-chunk-1-1.png)
 ```
 
 ## Conclusion
@@ -104,7 +104,7 @@ place R Markdown files in Jekyll. I encourage you to check out his blog!
 to dig through the documentation for this very blog post at the links
 below: 
 * [R Markdown
-File](https://github.com/zayne-kirkham/stat386-projects/blob/main/_posts/2022-08-04-How-To-Use-R-Markdown-in-Jekyll.md?plain=1)
+File](https://github.com/zayne-kirkham/stat386-projects/blob/main/_posts/rmd%20sources/2022-08-04-How-To-Use-R-Markdown-in-Jekyll-RMD-File.rmd)
 * [Edited Markdown
 File](https://github.com/zayne-kirkham/stat386-projects/blob/main/_posts/2022-08-04-How-To-Use-R-Markdown-in-Jekyll.md?plain=1)
 * [\_posts
