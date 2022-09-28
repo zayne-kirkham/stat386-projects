@@ -17,7 +17,7 @@ Markdown files. While it seems good at first, this restriction to
 Markdown files cuts off two of a data scientist’s greatest tools: R
 Markdown and its successor, Quarto.
 
-   R Markdown and Quarto have a pivotal place in the field of data
+   R Markdown has a pivotal place in the field of data
 science. Data science is a discipline that heavily relies upon
 reproducibility. The code used to analyze data should be accessible for
 those seeking to reproduce the analysis so that they may verify your
@@ -37,8 +37,7 @@ to make their code. Luckily, there is a way to get around this.
 
 ## How to
 
-   The solution is deceptively simple. When you create an R Markdown or
-Quarto in Posit (R-Studio), you are only offered three selections for
+   The solution is deceptively simple. When you create an R Markdown in Posit (R-Studio), you are only offered three selections for
 which file types your file can be rendered into. These three options are
 HTML, PDF and Word. In reality, there are additional types, each with
 their own uses. The one we will focus on today is gfm, or Github
@@ -60,7 +59,7 @@ correct folder—usually designated as `_posts`—and you are good to go!
 ## Images
 
    There is a small caveat to be aware of while using this method:
-images. When you render your R Markdown or Quarto file to one of the
+images. When you render your R Markdown file to one of the
 three standard options, your images are embedded in the file. When you
 render to a markdown file, however, the images are placed in a separate
 folder and only referenced in the markdown. When you push your post to
