@@ -102,11 +102,12 @@ place R Markdown files in Jekyll. I encourage you to check out his blog!
 
    If you need additional help getting this process to work, feel free
 to dig through the documentation for this very blog post at the links
-below: \* [R Markdown
+below: 
+* [R Markdown
 File](https://github.com/zayne-kirkham/stat386-projects/blob/main/_posts/2022-08-04-How-To-Use-R-Markdown-in-Jekyll.md?plain=1)
-\* [Edited Markdown
+* [Edited Markdown
 File](https://github.com/zayne-kirkham/stat386-projects/blob/main/_posts/2022-08-04-How-To-Use-R-Markdown-in-Jekyll.md?plain=1)
-\* [\_posts
+* [\_posts
 Folder](https://github.com/zayne-kirkham/stat386-projects/tree/main/_posts)
 
 Good luch with all your statistical adventures!
