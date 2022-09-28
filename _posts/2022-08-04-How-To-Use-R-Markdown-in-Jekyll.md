@@ -4,7 +4,7 @@ title:  "How To Use R Markdown in Jekyll"
 date:   2022-09-27
 author: Zayne Kirkham
 description: A short how-to on an important data science blogging skill
-image: 
+image: /assets/images/hex-rmarkdown.png
 ---
 ## Introduction
 
