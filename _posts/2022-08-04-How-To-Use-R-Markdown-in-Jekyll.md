@@ -79,7 +79,7 @@ library(ggplot2)
 ggplot(data = diamonds) +
   geom_violin(aes(y=price, x=cut, fill = cut), show.legend = FALSE)
 ```
-![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/rmd%20sources/unnamed-chunk-1-1.png)
+![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/Images/unnamed-chunk-1-1.png)
 
 Image markdown before alteration:
 ```
@@ -87,7 +87,7 @@ Image markdown before alteration:
 ```
 Image markdown after alteration:
 ```
-![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/rmd%20sources/unnamed-chunk-1-1.png)
+![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/Images/unnamed-chunk-1-1.png)
 ```
 
 ## Conclusion
