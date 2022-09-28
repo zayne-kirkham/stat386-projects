@@ -1,21 +1,18 @@
 ---
 layout: post
 title:  "How To Use R Markdown in Jekyll"
-date:   2022-08-04
-author: Project Author
-description: This is a cool project
+date:   2022-09-27
+author: Zayne Kirkham
+description: A short how-to on an important data science blogging skill
 image: 
 ---
-
-# Mr. Jekyll and DoctoR Markdown
-
 ## Introduction
 
    Jekyll blogs allow their owners to have a massive amount of control
 in how their websites are presented by sourcing individual posts from
 Markdown files. While it seems good at first, this restriction to
-Markdown files cuts off two of a data scientist’s greatest tools: R
-Markdown and its successor, Quarto.
+Markdown files cuts off one of a data scientist’s greatest tools: R
+Markdown.
 
    R Markdown has a pivotal place in the field of data
 science. Data science is a discipline that heavily relies upon
@@ -24,7 +21,7 @@ those seeking to reproduce the analysis so that they may verify your
 results.
 
    While it is possible to simply copy and paste your code into your
-reports and blogs, R Markdown and Quarto provide a much cleaner and
+reports and blogs, R Markdown provides a much cleaner and
 simpler alternative by letting you perform your analysis directly in the
 report file. When these documents are rendered, the code is evaluated
 and included in the report, according to the parameters you set in the
@@ -74,8 +71,7 @@ following code:
     knitr::opts_chunk$set(fig.path = "images/")
 
    You can push this folder with your blog post. If you follow these
-steps, no editing needs to be made to the references in your markdown
-file.
+steps, The only editing that will need to be made is to add 'Figure' into the brackets before the image link, as in the example below:
 
 ## sources
 
@@ -99,4 +95,4 @@ ggplot(data = mpg) +
   geom_violin(aes(y=cty, x=hwy, fill = as.factor(cyl)))
 ```
 
-![](images/unnamed-chunk-1-1.png)<!-- -->
+![Figure](images/unnamed-chunk-1-1.png)<!-- -->
