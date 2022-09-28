@@ -6,14 +6,9 @@ output:
     variant: gfm
     preserve_yaml: False
 ---
-
 ```{r setup}
 knitr::opts_chunk$set(fig.path = "images/")
 ```
-
-
-# Mr. Jekyll and DoctoR Markdown
-
 ## Introduction
 
    Jekyll blogs allow their owners to have a massive amount of control in how their websites are presented by sourcing individual posts from Markdown files. While it seems good at first, this restriction to Markdown files cuts off two of a data scientist's greatest tools: R Markdown and its successor, Quarto.
@@ -35,36 +30,44 @@ knitr::opts_chunk$set(fig.path = "images/")
         variant: gfm
         preserve_yaml: False
 
-   After you render your converted markdown file, add the YAML needed at the top of the file to publish the blog. Make sure the file is in the correct folder---usually designated as `_posts`---and you are good to go!
+   After you render your converted markdown file, add the YAML needed at the top of the file to publish the blog. Next, make sure the file is in the correct folder---usually designated as `_posts`---and you are good to go!
 
-## Images
+## A Comment on Images
 
-   There is a small caveat to be aware of while using this method: images. When you render your R Markdown or Quarto file to one of the three standard options, your images are embedded in the file. When you render to a markdown file, however, the images are placed in a separate folder and only referenced in the markdown. When you push your post to your github repository, these images must be pushed as well. The references in your markdown file must point to the correct file location in order for the images to be correctly displayed.
+   There is a small caveat to be aware of while using this method: images. When you render your R Markdown or Quarto file to one of the three standard options, your images are embedded in the file. When you render to a markdown file, however, the images are placed in a separate folder and only referenced in the markdown. When you push your post to your github repository, these images must be pushed as well. The markdown reference to the image must be updated to point to the raw link of the image in your repository. 
 
-   I suggest simplifying this by designating the folder in which your images will be stored at the beginning of your R Markdown file with the following code:
+   I suggest simplifying this by designating the folder in which your images will be stored at the beginning of your R Markdown file with the code below. You can push this folder with your blog post. 
 
 ```{}
 knitr::opts_chunk$set(fig.path = "images/")
 ```
-   You can push this folder with your blog post. If you follow these steps, no editing needs to be made to the references in your markdown file. 
-
-## sources
-
-While researching and creating this blog post, I was only able to find one other place where people were discussing how to link
-
-<https://jchellmuth.com/news/jekyll/website/code/2020/01/04/Rmarkdown-posts-to-Jekyll.html>
-
-## Additional Help
-
-   If you need additional help getting this process to work, feel free to dig through the documentation for this very blog post at the links below:
-
-
    Here is a simple plot to demonstrate how to include images.
 
 ```{r}
-library(tidyverse)
 library(ggplot2)
-ggplot(data = mpg) +
-  geom_violin(aes(y=cty, x=hwy, fill = as.factor(cyl)))
+ggplot(data = diamonds) +
+  geom_violin(aes(y=price, x=cut, fill = cut), show.legend = FALSE)
+```
+Markdown before alteration:
+```
+(Insert md code here)
+```
+After:
+```
+(Insert altered md code here)
 ```
 
+
+## Conclusion
+
+   While researching for this post, I was astonished by how little discussion there was about it. I was eventually able to find one place that discussed it: this blog post [here](https://jchellmuth.com/news/jekyll/website/code/2020/01/04/Rmarkdown-posts-to-Jekyll.html). While some of the things the author discusses are depreciated, his post was instrumental in helping me to figure out how to work out how to place R Markdown files in Jekyll. I encourage you to check out his blog!
+
+
+   If you need additional help getting this process to work, feel free to dig through the documentation for this very blog post at the links below:
+* [R Markdown File](https://github.com/zayne-kirkham/stat386-projects/blob/main/_posts/2022-08-04-How-To-Use-R-Markdown-in-Jekyll.md?plain=1)
+* [Edited Markdown File](https://github.com/zayne-kirkham/stat386-projects/blob/main/_posts/2022-08-04-How-To-Use-R-Markdown-in-Jekyll.md?plain=1)
+* [_posts Folder](https://github.com/zayne-kirkham/stat386-projects/tree/main/_posts)
+
+Good luck! 
+
+(Insert Fairwell Image Here)
