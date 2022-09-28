@@ -111,4 +111,4 @@ Folder](https://github.com/zayne-kirkham/stat386-projects/tree/main/_posts)
 
 Good luch with all your statistical adventures!
 
-![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/pexels-alex-knight-2599244.jpg]
+![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/pexels-alex-knight-2599244.jpg)
