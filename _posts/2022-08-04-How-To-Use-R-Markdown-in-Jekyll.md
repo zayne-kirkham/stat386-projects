@@ -11,17 +11,17 @@ image: /assets/images/hex-rmarkdown.png
    Jekyll blogs allow their owners to have a massive amount of control
 in how their websites are presented by sourcing individual posts from
 Markdown files. While it seems good at first, this restriction to
-Markdown files cuts off two of a data scientist’s greatest tools: R
-Markdown and its successor, Quarto.
+Markdown files cuts off one of a data scientist’s greatest tools: R
+Markdown.
 
-   R Markdown and Quarto have a pivotal place in the field of data
+   R Markdown have a pivotal place in the field of data
 science. Data science is a discipline that heavily relies upon
 reproducibility. The code used to analyze data should be accessible for
 those seeking to reproduce the analysis so that they may verify your
 results.
 
    While it is possible to simply copy and paste your code into your
-reports and blogs, R Markdown and Quarto provide a much cleaner and
+reports and blogs, R Markdown provides a much cleaner and
 simpler alternative by letting you perform your analysis directly in the
 report file. When these documents are rendered, the code is evaluated
 and included in the report, according to the parameters you set in the
@@ -34,8 +34,7 @@ to make their code. Luckily, there is a way to get around this.
 
 ## How to
 
-   The solution is deceptively simple. When you create an R Markdown or
-Quarto in Posit (R-Studio), you are only offered three selections for
+   The solution is deceptively simple. When you create an R Markdown in Posit (R-Studio), you are only offered three selections for
 which file types your file can be rendered into. These three options are
 HTML, PDF and Word. In reality, there are additional types, each with
 their own uses. The one we will focus on today is gfm, or Github
@@ -58,7 +57,7 @@ go!
 ## A Comment on Images
 
    There is a small caveat to be aware of while using this method:
-images. When you render your R Markdown or Quarto file to one of the
+images. When you render your R Markdown file to one of the
 three standard options, your images are embedded in the file. When you
 render to a markdown file, however, the images are placed in a separate
 folder and only referenced in the markdown. When you push your post to
@@ -79,7 +78,7 @@ library(ggplot2)
 ggplot(data = diamonds) +
   geom_violin(aes(y=price, x=cut, fill = cut), show.legend = FALSE)
 ```
-![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/rmd%20sources/unnamed-chunk-1-1.png)
+![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/Images/unnamed-chunk-1-1.png)
 
 Image markdown before alteration:
 ```
@@ -87,7 +86,7 @@ Image markdown before alteration:
 ```
 Image markdown after alteration:
 ```
-![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/rmd%20sources/unnamed-chunk-1-1.png)
+![Figure](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/_posts/Images/unnamed-chunk-1-1.png)
 ```
 
 ## Conclusion
