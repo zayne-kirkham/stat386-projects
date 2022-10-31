@@ -41,9 +41,9 @@ ww1_df.columns = ww1_df.columns.droplevel(1)  #remove multi-index layer
 ```
 After a little cleaning after merging the tables, we are left with a data set similar to the following:
 
-INSERT SCREENSHOT OF TABLE
+![FIGURE](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/raw_messy_WW_data.png)
 
-You can find the full table at this [link](https://github.com/zayne-kirkham/World-War-Casualties/blob/main/Uncleaned_data.csv). Obviously, this data requires a bit more cleaning in order to be usable. However, that is a topic for a different, much more intricate, blog post. 
+You can find the full table at this [link](https://github.com/zayne-kirkham/World-War-Casualties/blob/main/Uncleaned_data.csv). As you can see, this data requires a bit more cleaning in order to be usable for statistical analysis. Beautifulsoup and pandas scrape the data, but it is up to the user to clean it. 
 
 # Conclusion
 I hope that this helps you in your web scraping adventures, and I encourage you to explore more with scraping Wikipedia. Who knows, maybe one of you will figure out how to use the Wikipedia API to get table data! If you do, please reach out and let me know how. ;) 
