@@ -39,7 +39,7 @@ ww2_df = pd.read_html(ww2_url)[0]
 ww1_df = pd.read_html(ww1_url)[0]
 ww1_df.columns = ww1_df.columns.droplevel(1)  #remove multi-index layer
 ```
-After a little cleaning after merging the tables, we are left with a data set similar to the following:
+After a little cleaning after merging the tables, we are left with a data set similar to the following, but with many more rows:
 
 ![FIGURE](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/raw_messy_WW_data.png)
 
