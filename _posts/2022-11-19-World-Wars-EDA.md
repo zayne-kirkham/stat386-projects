@@ -76,7 +76,7 @@ The other distribution plots are found below:
 
 As stated earlier, each distribution is suprisingly normal. While there are outliers, there are no skews that would prevent us from performing standard analysis on the data. 
 
-Additionally, I explored the relationship between total deaths and population. This plot also requires a log scale to be readable. While mostly homogeneous, It is apparent that there is not a one to one ratio between each factor. There is a lot of noise and, examining the lower portion of the graph, there is a confounding variable leadign to the data from World War Two being much more spread out. 
+Additionally, I explored the relationship between total deaths and population. This plot also requires a log scale to be readable. While mostly homogeneous, It is apparent that there is not a one to one ratio between each factor. There is a lot of noise and, examining the lower portion of the graph, there is a confounding variable leading to the data from World War Two being much more spread out. 
 ![FIGURE](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/WW_post/tot_x_pop.png)
 
 
