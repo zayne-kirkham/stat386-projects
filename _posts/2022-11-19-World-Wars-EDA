@@ -1,0 +1,79 @@
+---
+layout: post
+title:  "The Wars To End All Wars: and EDA Into the World Wars"
+date:   2022-10-18
+author: Zayne Kirkham
+description: FIXME
+image: /assets/images/wikipedia-logo-D8F03B93A7-seeklogo.com.jpg
+---
+
+# Intro
+
+
+# Cleaning The Data
+
+# Examining Each Factor
+
+
+``` {python}
+temp = data.columns.values.tolist()[1:-3] + [data.columns.values.tolist()[-2:]]
+for i in range(len(temp)-1) :
+    fig, (ax1, ax2) = plt.subplots(ncols=2, sharey=True)
+    # Set Scale
+    ax1.set_xscale('log')
+    ax2.set_xscale("log")
+    # Plot 1
+    sns.histplot(x=temp[i], 
+                 data = data, 
+                 ax = ax1,
+                 ) 
+    # Plot 2
+    sns.histplot(x=temp[i], 
+                 data = data, 
+                 hue = "War", 
+                 multiple = "dodge", 
+                 ax = ax2,
+                 )
+
+    fig.suptitle(f"{temp[i]}")
+    ax1.set_title(f"Distribution")
+    ax2.set_title(f"Distribution by war")
+```
+
+INSERT ALL THE PICTURES HERE
+
+# Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
