@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Wars To End All Wars: an EDA Into the World Wars"
+title:  "The Wars To End All Wars"
 date:  2022-10-18
 author: Zayne Kirkham
 description: An exploration into the casualties of the wars that shook the entire world. 
@@ -58,10 +58,13 @@ for i in range(len(temp)-1) :
 ```
 
 Overall, after the log scale was applied, each distribution was suprisingly normal. The major exception was the amount of indirect civilian casualties. 
+
 ![FIGURE](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/WW_post/dist_indir_civ.png)
+
 Upon inspecting the distribution on the right, however, we can see that each war's distribution is distinct. World War One was a notable lower outlier while World War Two is strongly left skewed. As World War one progressed, more and more troops were poured into the meat grinder of the French countryside. Most of the conflict was contained on the soil of Europe, with only occasional battles being fought elsewhere. As such, the general lives of civilians were not majorly shortened in many parts of the world. However, World War Two was a much more global conflict. It affected many more countries in a much deeper way than World War One ever did. 
 
 The corresponding boxplot (below) tells a similar story. Oddly enough, this factor had the least amount of outliers. I am not entirely sure what this means. Each distribution tells a story. With the proper understanding of history and context, these stories become apparent.
+
 ![FIGURE](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/WW_post/box_dir_civ.png)
 
 The other distribution plots are found below:
