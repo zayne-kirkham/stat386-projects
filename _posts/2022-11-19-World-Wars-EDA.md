@@ -65,6 +65,7 @@ The corresponding boxplot (below) tells a similar story. Oddly enough, this fact
 ![FIGURE](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/WW_post/box_dir_civ.png)
 
 The other distribution plots are found below:
+
 ![FIGURE](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/WW_post/dist_dir_civ.png)
 
 ![FIGURE](https://raw.githubusercontent.com/zayne-kirkham/stat386-projects/main/assets/images/WW_post/dist_pop.png)
