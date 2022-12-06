@@ -103,7 +103,7 @@ place R Markdown files in Jekyll. I encourage you to check out his blog!
 to dig through the documentation for this very blog post at the links
 below: 
 * [R Markdown
-File](https://github.com/zayne-kirkham/stat386-projects/blob/main/assets/Reference%20Files/2022-08-04-How-To-Use-R-Markdown-in-Jekyll-RMD-File.rmd)
+File](https://github.com/zayne-kirkham/stat386-projects/blob/main/assets/Reference%20Files/How_To_Use_R_Markdown-in-Jekyll-RMD-File.rmd)
 * [Edited Markdown
 File](https://github.com/zayne-kirkham/stat386-projects/blob/main/_posts/2022-08-04-How-To-Use-R-Markdown-in-Jekyll.md?plain=1)
 * [\_posts
