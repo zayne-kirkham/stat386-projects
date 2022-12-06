@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # About Me
-Hey there! I'm Zayne. I'm a committed husband and soon-to-be father with a passion for data science and statistics. I'm currently working in pharmaceutical research. My passions are my family, skiing, and poetry. Hit me up on my (LinkedIn)[https://www.linkedin.com/in/zayne-kirkham/]!
+Hey there! I'm Zayne. I'm a committed husband and soon-to-be father with a passion for data science and statistics. I'm currently working in pharmaceutical research. My passions are my family, skiing, and poetry. Hit me up on my [LinkedIn](https://www.linkedin.com/in/zayne-kirkham/)!
 
 
 # Future Projects
