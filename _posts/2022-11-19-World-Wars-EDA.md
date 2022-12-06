@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Wars To End All Wars"
-date:  2022-10-18
+date:  2022-11-19
 author: Zayne Kirkham
 description: An exploration into the casualties of the wars that shook the entire world. 
 image: /assets/images/WW_post/pexels-asim-alnamat-404995.jpg
