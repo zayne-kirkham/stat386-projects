@@ -4,7 +4,7 @@ title:  "FIXME Data Story Title"
 date:  2022-12-6
 author: Zayne Kirkham
 description: FIXME Description 
-image: /assets/images/WW_post/pexels-photo-532001.webp
+image: /assets/images/WW_post/pexels-photo-532001.jpg
 ---
 
 # Summary of project 1-2 para
